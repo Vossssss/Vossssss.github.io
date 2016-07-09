@@ -1,11 +1,12 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
+@import url("https://fonts.gmirror.org/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
 
 /*
 	TXT by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
 #myCarousel {
 	margin: 0 0 0 0;
 }
@@ -1408,6 +1409,12 @@
 				ul.contact li:hover a.fa-google-plus {
 					background-color: #DA2713;
 				}
+				ul.contact li:hover a.fa-weibo {
+					background-color: #DA2713;
+				}
+				ul.contact li:hover a.fa-github {
+					background-color: #333333;
+				}
 
 			ul.contact li:active {
 				top: 0;
@@ -1855,7 +1862,7 @@
 			}
 
 			.box.page-content header > p {
-				font-size: 1.65em;
+				font-size: 1.4em;
 				margin: 0 0 0.5em 0;
 			}
 

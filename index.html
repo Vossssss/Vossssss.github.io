@@ -12,6 +12,7 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<Link Rel="SHORTCUT ICON" href="ico/favicon.ico">
 		<!--link rel="stylesheet" href="css/style.css"-->
 
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -22,9 +23,9 @@
 			<!-- Header -->
 				<header id="header">
 					<div class="logo container">
-						<div>
+						<div>					
 							<h1><a href="index.html" id="logo">Voss</a></h1>
-							<p>欢迎</p>
+							<p></p>
 						</div>
 					</div>
 				</header>
@@ -32,26 +33,9 @@
 			<!-- Nav -->
 				<nav id="nav">
 					<ul>
-						<li class="current"><a href="index.html">Home</a></li>
-						<!--li>
-							<a href="#">Dropdown</a>
-							<ul>
-								<li><a href="#">Lorem ipsum dolor</a></li>
-								<li><a href="#">Magna phasellus</a></li>
-								<li>
-									<a href="#">Phasellus consequat</a>
-									<ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
-										<li><a href="#">Phasellus consequat</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Veroeros feugiat</a></li>
-							</ul>
-						</li-->
-						<li><a href="left-sidebar.html">blog</a></li>
-						<li><a href="right-sidebar.html">about me</a></li>
+						<li><a href="index.html#main">博文</a></li>
+						<li class="current"><a href="index.html">主页</a></li>
+						<li><a href="resume.html">简历</a></li>
 						<!--li><a href="no-sidebar.html">No Sidebar</a></li-->
 					</ul>
 				</nav>
@@ -60,9 +44,9 @@
 				<div id="banner-wrapper">
 					<section id="banner">
 						<h2>欢迎来到我的个人网站</h2>
-						<p>这是个无聊的地方</p>
-						<a href="#" class="button">去我博客</a>
-						<a href="#" class="button">看我简历</a>
+						<p>信仰圣光吧</p>
+						<a href="#main" class="button">瞧瞧博客</a>
+						<a href="resume.html" class="button">瞅瞅简历</a>
 						<p></p>
 						<div id="myCarousel" class="carousel slide">
 							<ol class="carousel-indicators">
@@ -71,14 +55,17 @@
 								<li data-target="#myCarousel" data-slide-to="2"></li>
 							</ol>
 							<div class="carousel-inner">
-								<div class="item active" style="background:#223240">
-									<img src="img/slide2.png" alt="第一张">
+								<div class="item active" style="background:#252525">
+								<a href="https://sunzelin.github.io" target="_blank">
+									<img src="img/szl5.png" alt="第一张"></a>
 								</div>
-								<div class="item" style="background:#F5E4DC;">
-									<img src="img/slide1.png" alt="第二张">
+								<div class="item" style="background:#FFFFFF;">
+								<a href="http://anshi.online/" target="_blank">
+									<img src="img/anshi2.png" alt="第二张"></a>
 								</div>
 								<div class="item" style="background:#DE2A2D;">
-									<img src="img/slide3.png" alt="第三张">
+								<a href="https://www.hao123.com/?tn=99083015_s_hao_pg" target="_blank">
+									<img src="img/slide3.png" alt="第三张"></a>
 								</div>
 							</div>
 								<a href="#myCarousel" data-slide="prev" class="carousel-control left">
@@ -90,7 +77,110 @@
 							</div>
 					</section>
 				</div>
-					
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div id="main" class="container">
+						<div class="row 200%">
+							<div class="12u">
+
+							
+
+								<!-- Blog -->
+									<section class="box blog">
+										<h2 class="major"><span>博文列表</span></h2>
+										<div>
+											<div class="row">
+												<div class="9u 12u(mobile)">
+													<div class="content content-left">
+
+														<!-- Featured Post -->
+															<article class="box post">
+																<header>
+																	<h3><a href="blog.html">我的第一篇文章</a></h3>
+																	<p></p>
+																	<ul class="meta">
+																		<li class="icon fa-clock-o">2016年7月8日 19:43</li>
+																		<!--li class="icon fa-comments"><a href="#">8</a></li-->
+																	</ul>
+																</header>
+																<a href="blog.html" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+																<p>
+																	    第一篇博客主要介绍我的个人网站建立过程。。。。
+																	<!--Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in lectus. Praesent
+																	semper mod quis eget mi. Etiam sed ante risus aliquam erat et volutpat. Praesent a
+																	dapibus velit. Curabitur sed nisi nunc, accumsan vestibulum lectus. Lorem ipsum
+																	dolor sit non aliquet sed, tempor et dolor.  Praesent a dapibus velit. Curabitur
+																	accumsan.-->
+																</p>							
+																<a href="blog.html" class="button">继续阅读 →</a>
+															</article>
+
+													</div>
+												</div>
+												<div class="3u 12u(mobile)">
+													<div class="sidebar">
+
+														<!-- Archives -->
+															<ul class="divided">
+																<li>
+																	<article class="box post-summary">
+																		<h3><a href="blog.html#step0">简介与工具</a></h3>
+																		<ul class="meta">
+																			<li class="icon fa-clock-o">6 hours ago</li>
+																			<li class="icon fa-comments"><a href="#">34</a></li>
+																		</ul>
+																	</article>
+																</li>
+																<li>
+																	<article class="box post-summary">
+																		<h3><a href="blog.html#step1">Step1 模板</a></h3>
+																		<ul class="meta">
+																			<li class="icon fa-clock-o">9 hours ago</li>
+																			<li class="icon fa-comments"><a href="#">27</a></li>
+																		</ul>
+																	</article>
+																</li>
+																<li>
+																	<article class="box post-summary">
+																		<h3><a href="blog.html#step2">Step2 编写页面</a></h3>
+																		<ul class="meta">
+																			<li class="icon fa-clock-o">Yesterday</li>
+																			<li class="icon fa-comments"><a href="#">184</a></li>
+																		</ul>
+																	</article>
+																</li>
+																<li>
+																	<article class="box post-summary">
+																		<h3><a href="blog.html#step3">Step3 部署网站</a></h3>
+																		<ul class="meta">
+																			<li class="icon fa-clock-o">2 days ago</li>
+																			<li class="icon fa-comments"><a href="#">286</a></li>
+																		</ul>
+																	</article>
+																</li>
+																<li>
+																	<article class="box post-summary">
+																		<h3><a href="blog.html#step4">视频演示</a></h3>
+																		<ul class="meta">
+																			<li class="icon fa-clock-o">3 days ago</li>
+																			<li class="icon fa-comments"><a href="#">8,086</a></li>
+																		</ul>
+																	</article>
+																</li>
+															</ul>
+															<!--a href="#" class="button alt">Browse Archives</a-->
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+		
 			<!-- Footer -->
 				<footer id="footer" class="container">
 					<div class="row 200%">
@@ -100,7 +190,11 @@
 								<section>
 									<h2 class="major"><span>这是什么地方？</span></h2>
 									<p>
-										无聊的地方。。。。。。。。
+										如果你看了这句话，说明你在首页  
+									</p>
+									<p>
+
+										希望你不要在我的网站迷路，我只是把文章列表暂时放在了首页，以后文章多了，会新开一个页面存放吧 _(:3 」∠)_ 
 										<!--This is <strong>TXT</strong>, yet another free responsive site template designed by
 										<a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>. It's released under the
 										<a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for
@@ -116,7 +210,7 @@
 
 							<!-- Contact -->
 								<section>
-									<h2 class="major"><span>来找我啊！</span></h2>
+									<h2 class="major"><span>关注我</span></h2>
 									<ul class="contact">
 										<li><a class="icon fa-facebook" href="https://zh-cn.facebook.com/people/%E8%94%A1%E5%8D%9A%E6%80%9D/100010445705981" target="_blank"><span class="label">Facebook</span></a></li>
 										<li><a class="icon fa-github" href="https://github.com/Vossssss/Vossssss.github.io" target="_blank"><span class="label">Github</span></a></li>
